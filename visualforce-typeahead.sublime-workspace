@@ -1,0 +1,674 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Ad",
+				"Adults__c"
+			],
+			[
+				"get",
+				"getClients"
+			],
+			[
+				"Stats",
+				"FoodBankStats"
+			],
+			[
+				"add",
+				"address"
+			],
+			[
+				"Cli",
+				"Client_Household__c"
+			],
+			[
+				"tody",
+				"todayStats"
+			],
+			[
+				"ch",
+				"Children"
+			],
+			[
+				"proposal__r",
+				"Proposal_Lines__r"
+			],
+			[
+				"exi",
+				"existingProposalLines"
+			],
+			[
+				"existing",
+				"existingProposalLines"
+			],
+			[
+				"outpu",
+				"apex:outputPanel"
+			],
+			[
+				"display",
+				"displayProposal"
+			],
+			[
+				"Propo",
+				"Proposal_Lines"
+			],
+			[
+				"Prop",
+				"Proposal"
+			],
+			[
+				"query",
+				"queryResults"
+			],
+			[
+				"pretty",
+				"prettyPrint"
+			],
+			[
+				"accou",
+				"accountName"
+			],
+			[
+				"getd",
+				"getDonorForCurrentUserContext"
+			],
+			[
+				"Se",
+				"SecurityTesterSpecial"
+			],
+			[
+				"page",
+				"apex:pageBlockSectionItem"
+			],
+			[
+				"getUs",
+				"getUserId()"
+			],
+			[
+				"agree",
+				"agreementId"
+			],
+			[
+				"renewal",
+				"renewals"
+			],
+			[
+				"owner",
+				"ownerSettings"
+			],
+			[
+				"set",
+				"setScale"
+			],
+			[
+				"tota",
+				"totalOppValueMap"
+			],
+			[
+				"RENEWAL",
+				"RENEWAL_OWNER_SETTING"
+			],
+			[
+				"getRen",
+				"getRenewalOwnerId"
+			],
+			[
+				"cont",
+				"contract_end_date__c"
+			],
+			[
+				"Stat",
+				"Status__c"
+			],
+			[
+				"va",
+				"valueOf"
+			],
+			[
+				"statu",
+				"Status__c"
+			],
+			[
+				"Con",
+				"Contract_Start_Date__c"
+			],
+			[
+				"Voluntee",
+				"Volunteer_Shift__c"
+			],
+			[
+				"opplog",
+				"oppLogHoursAction"
+			],
+			[
+				"pick",
+				"picklist_value__c"
+			],
+			[
+				"cou",
+				"Country_Code_Lookup__c"
+			],
+			[
+				"getCount",
+				"getCountryCodes"
+			],
+			[
+				"Country",
+				"country"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 151,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"bun",
+				"MavensMate: Deploy Resource Bundle..."
+			],
+			[
+				"json",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"Snippet: ",
+				"Snippet: throw"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"listp",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pret",
+				"Pretty JSON: Reformat (Pretty Print) JSON"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"Snippet: de",
+				"Snippet: debug"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ecallahan/Documents/MavensMate/visualforce-typeahead/src/pages/TypeaheadTest.page",
+		"/Users/ecallahan/Documents/MavensMate/visualforce-typeahead/src/classes/TypeaheadTest.cls-meta.xml",
+		"/Users/ecallahan/Documents/MavensMate/visualforce-typeahead/src/classes/TypeaheadTest.cls",
+		"/Users/ecallahan/Documents/MavensMate/visualforce-typeahead/src/components/Typeahead.component",
+		"/Users/ecallahan/Documents/MavensMate/visualforce-typeahead/src/classes/UnsupportedObjectTypeException.cls",
+		"/Users/ecallahan/Documents/MavensMate/visualforce-typeahead/src/classes/SmartFactory.cls",
+		"/Users/ecallahan/Documents/MavensMate/visualforce-typeahead/src/package.xml",
+		"/Users/ecallahan/Documents/MavensMate/visualforce-typeahead/src/components/MyComponentName.component",
+		"/Users/ecallahan/Documents/MavensMate/visualforce-typeahead/src/components/Typeahead.component-meta.xml",
+		"/Users/ecallahan/Documents/MavensMate/visualforce-typeahead/src/classes/Typeahead.cls-meta.xml",
+		"/Users/ecallahan/Documents/MavensMate/visualforce-typeahead/src/pages/TypeaheadTest.page-meta.xml",
+		"/Users/ecallahan/Documents/MavensMate/visualforce-typeahead/src/classes/Typeahead.cls",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/resource-bundles/Angular.resource/partials/stats.htm",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/resource-bundles/Angular.resource/partials/main.htm",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/src/pages/FoodBankMain.page",
+		"/Users/ecallahan/Library/Application Support/Sublime Text 3/Packages/User/mavensmate.sublime-settings",
+		"/Users/ecallahan/Library/Application Support/Sublime Text 3/Packages/MavensMate/mavensmate.sublime-settings",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/src/pages/FoodBankCheckIn.page",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/src/pages/FoodBankApp.page",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/src/pages/FoodBankManager.page",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/src/pages/FoodBankStats.page",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/src/classes/FoodBankManager.cls",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/resource-bundles/Angular.resource/partials/stats.html",
+		"/Users/ecallahan/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/ecallahan/Library/Application Support/Sublime Text 3/Packages/MavensMate/Default (OSX).sublime-keymap",
+		"/Users/ecallahan/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/resource-bundles/Angular.resource/js/angular.min.js",
+		"/Users/ecallahan/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/src/staticresources/Angular.resource",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/resource-bundles/Angular.resource/js/app.js",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/resource-bundles/Angular.resource/js/services.js",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/src/classes/FoodBankTrigger.cls",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/src/objects/Client_Household__c.object",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/src/package.xml",
+		"/Users/ecallahan/Documents/typeahead.js/typeahead.css",
+		"/Users/ecallahan/Documents/Bootstrap3/css/bootstrap-namespaced.css",
+		"/Users/ecallahan/Documents/typeahead.js/typeahead.js",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/src/objects/Client_Visit__c.object",
+		"/Users/ecallahan/Downloads/typeahead 2.js/typeahead.css",
+		"/Users/ecallahan/.sftp/known_hosts",
+		"/Users/ecallahan/.ssh/known_hosts",
+		"/Users/ecallahan/Documents/Bootstrap3/css/bootstrap.css",
+		"/Users/ecallahan/Documents/MavensMate/FoodBank/src/classes/FoodBankStats.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/prod/Foundation/src/classes/foundationRenewalTests.cls-meta.xml",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/freeze/Foundation/src/objects/Foundation_Proposal_Settings__c.object",
+		"/private/tmp/ecallahan(p4v)/ecallahan-ltm_ssl_p4proxy.soma.salesforce.com_1999/it/applications/org62/Foundation/freeze/Foundation/src/objects/Foundation_Proposal_Settings__c#3.object",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/ProposalTest.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/FoundationApplicationsWS.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/FoundationS2SManager.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/foundationRenewalBatchable.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/foundationRenewals.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/AttritionNotificationController.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/foundationRenewalScheduleable.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/ProposalInsertAfter.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/freeze/appdev/src/classes/FoundationS2SManager.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/ProposalAddSpecialTermsController.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/freeze/Foundation/src/classes/ProposalInsert.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/triggers/FoundationAccountTrigger.trigger",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/triggers/FoundationUserTrigger.trigger",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/triggers/ProposalTrigger.trigger",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/ProposalTermUpdate.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/triggers/ProposalLineTrigger.trigger",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/ProposalLineInsertAfter.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/ProposalLegalViewController.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/patch/Foundation/src/classes/ProposalLineInsertAfter.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/prod/Foundation/src/classes/ProposalUtil.cls",
+		"/private/tmp/ecallahan(p4v)/ecallahan-ltm_ssl_p4proxy.soma.salesforce.com_1999/foundation/apps/org62/main/appdev/src/classes/ProposalUtil#19.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/prod/Foundation/src/classes/ProposalLineInsertAfter.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/prod/Foundation/src/triggers/FoundationUserTrigger.trigger",
+		"/private/tmp/ecallahan(p4v)/ecallahan-ltm_ssl_p4proxy.soma.salesforce.com_1999/it/applications/org62/Foundation/freeze/Foundation/src/classes/foundationRenewalBatchable#2.cls",
+		"/private/tmp/ecallahan(p4v)/ecallahan-ltm_ssl_p4proxy.soma.salesforce.com_1999/it/applications/org62/Foundation/freeze/Foundation/src/classes/foundationRenewalBatchable#4.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/foundationRenewalTests.cls",
+		"/private/tmp/ecallahan(p4v)/ecallahan-ltm_ssl_p4proxy.soma.salesforce.com_1999/foundation/apps/org62/main/appdev/src/classes/foundationRenewalTests#12.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/ProposalUtil.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/prod/Foundation/src/classes/foundationRenewals.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/freeze/Foundation/src/classes/foundationRenewals.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/freeze/Foundation/src/classes/ProposalLineInsertAfter.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/patch/Foundation/src/classes/FoundationApplicationsWS.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/patch/Foundation/src/triggers/FoundationUserTrigger.trigger-meta.xml",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/IRSMasterBusinessWebService.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/IRSMasterBusinessWebService.cls-meta.xml",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/freeze/Foundation/src/classes/IRSMasterBusinessWebService.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/patch/Foundation/src/classes/IRSMasterBusinessWebService.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/ProposalInsert.cls-meta.xml",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/ProposalInsertAfter.cls-meta.xml",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/ProposalCreateContractOrder.cls-meta.xml",
+		"/Users/ecallahan/Library/salesforce.com/Pulse Explorer/configuration/1383176842991.log",
+		"/Users/ecallahan/Library/salesforce.com/Pulse Explorer/configuration/1383175948572.log",
+		"/Users/ecallahan/Library/salesforce.com/Pulse Explorer/configuration/1383175909637.log",
+		"/Users/ecallahan/Library/salesforce.com/Pulse Explorer/configuration/1379355015576.log",
+		"/Users/ecallahan/Library/salesforce.com/Pulse Explorer/configuration/1379355003299.log",
+		"/Users/ecallahan/Library/salesforce.com/Pulse Explorer/configuration/1383176429034.log",
+		"/private/tmp/ecallahan(p4v)/ecallahan-ltm_ssl_p4proxy.soma.salesforce.com_1999/it/applications/org62/Foundation/patch/Foundation/src/classes/IRSMasterBusinessWebService#2.cls",
+		"/Users/ecallahan/Documents/Ant Migration Tool v29/sample/codepkg/package.xml",
+		"/private/tmp/ecallahan(p4v)/ecallahan-ltm_ssl_p4proxy.soma.salesforce.com_1999/it/applications/org62/Foundation/prod/Foundation/src/classes/foundationRenewalController#4.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/freeze/appdev/src/classes/FoundationApplicationsWS.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/build.properties",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/build.xml",
+		"/private/tmp/ecallahan(p4v)/ecallahan-ltm_ssl_p4proxy.soma.salesforce.com_1999/it/applications/org62/deadwood/freeze/tools/build/build#1.xml",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/triggers/FoundationContactTrigger.trigger",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/freeze/appdev/src/classes/IRSMasterBusinessWebService.cls",
+		"/private/tmp/ecallahan(p4v)/ecallahan-ltm_ssl_p4proxy.soma.salesforce.com_1999/it/applications/org62/Foundation/freeze/Foundation/src/pages/ProposalAddSpeicalTermsPage#2.page",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/it/applications/org62/Foundation/freeze/Foundation/src/classes/ProposalInsertAfter.cls",
+		"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes/ProposalInsert.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/ArticleEntryController.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/pages/ArticleEntry.page",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/pages/fileUpload.page",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/AppUtil.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/objects/Foundation_App_Settings__c.object",
+		"/Users/ecallahan/Documents/NONPROFT INFO API RESULT.json",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/NewOrEditDonationMatchRequestController.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/ManageDonors.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/TeamGrantRequestController.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/VolunteeringSetupController.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/Batch_RequestDonationAck.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/DonationMatchRequestController.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/AppTestUtil.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/components/VolunteeringSetupComponent.component",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/Batch_AccountNPSPMarker.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/Trigger_Account.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/ChatterUtil.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/OrgSearchController.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/VolunteerShiftsDisplayController.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/pages/TeamGrantRequest.page",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/VolunteeringHomePageController.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/DonorDetailPageController.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/DonationMatchRequestWizardController.cls",
+		"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src/classes/ActivityDetailController.cls"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/ecallahan/Documents/MavensMate/FoodBank",
+			"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes",
+			"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src",
+			"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes",
+			"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src",
+			"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes",
+			"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev",
+			"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src",
+			"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-Evan/src",
+			"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src",
+			"/Users/ecallahan/Perforce/ecallahan-ltm/foundation/apps/org62/main/appdev/src/classes",
+			"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-CSR/src",
+			"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-CSR/src/classes",
+			"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-CSR/src",
+			"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-CSR/src/components",
+			"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-CSR/src/pages",
+			"/Users/ecallahan/Documents/MavensMate/WLMA-Dev-CSR/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"escapeSingleQuotes",
+			"alert",
+			"client.",
+			", ",
+			",\"",
+			"\":",
+			"query",
+			"FoodBankHouseholdQuery",
+			"check",
+			"leng",
+			"partials",
+			".leng",
+			"househ",
+			"foodban",
+			"console",
+			"tid",
+			"getcheck",
+			"getc",
+			"getaction",
+			"getactio",
+			"timef",
+			"timeframe",
+			"foodb",
+			"stats",
+			"foodbankstats",
+			"cont",
+			"cmd",
+			"super",
+			"shif",
+			"shift+k",
+			"shift+l",
+			"shift+p",
+			"alt+",
+			"alt+b",
+			"shift+b",
+			"init",
+			"stats",
+			"stat",
+			"timeframe=",
+			"meta",
+			"{!initialStats.",
+			"{!initialStats",
+			"stattime",
+			".log",
+			"/ser",
+			"http",
+			"api",
+			"typeahead",
+			"query",
+			"modal-back",
+			".bootstrap3 ",
+			"backdrop",
+			"String",
+			"public",
+			"+",
+			"', '",
+			"duplicate",
+			"clientid",
+			"leng",
+			" ",
+			"datet",
+			"children",
+			"thisYearStats",
+			"totals",
+			"children",
+			"font-s",
+			"  margin: 0;\n  display:block;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  font-size: 14px;\n  line-height: 1.428571429;\n  color: #333333;\n  background-color: #ffffff;\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n",
+			"body",
+			"inline;",
+			"body {",
+			"body",
+			"html",
+			"block",
+			"html",
+			"body",
+			"html",
+			"margin",
+			"sans",
+			"body",
+			"neue",
+			"body",
+			".bootstrap3 body",
+			"body",
+			".bootstrap3 html",
+			"td",
+			"font-s",
+			"integer",
+			"infant",
+			"infan",
+			"getorgidfor",
+			"activation",
+			"allorg",
+			"getcustom",
+			"allorg",
+			"getcustom",
+			"orginfo",
+			"validateor",
+			"orgid",
+			"contractand",
+			"[i",
+			"insert",
+			"updates",
+			"status",
+			"RENEWAL_DAYS_OUT_FROM_CONTRACT_END",
+			"tendd",
+			"endd",
+			"targetend",
+			"renewal",
+			"lineitem",
+			"email",
+			".name",
+			"name",
+			"createprop",
+			"linesfor",
+			"toaddre",
+			"email",
+			"getcustom",
+			"accept",
+			"orgid",
+			"FoundationApplicationsWS",
+			"FoundationApplicationWS",
+			"allorganization",
+			"sendemail",
+			"255",
+			"revok",
+			"setting",
+			"//",
+			"foundation_proposal_ren"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "visualforce-typeahead.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"object"
+			]
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
