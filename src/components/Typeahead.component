@@ -143,7 +143,7 @@
 
 					// if destinations are defined, set them too
 					j$('[id$={!destinationForSelectedId}]').val( id );
-                    j$('[id$={!destinationForSelectedValue}]').val( value );
+					j$('[id$={!destinationForSelectedValue}]').val( value );
 				},
 
 			fieldList: 
