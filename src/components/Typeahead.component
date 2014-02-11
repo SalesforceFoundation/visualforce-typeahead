@@ -10,7 +10,7 @@
 
 
 	possible improvements:
-	 - pass in a function to call when something is selected
+	 - pass in a function to call when something is selected (so they don't have to click a button)
 	 - specify where to put errors (and then use an alert if not specified)
 	 - list of extra fields to query
 	 - function to render suggestion
@@ -20,7 +20,7 @@
 
 	<script type="text/javascript">
         window.jQuery || document.write('<script src="{!URLFOR($Resource.Typeahead, '/jquery-1.10.2.min.js')}"><\/script>');    
-		window.typeahead || document.write('<script src="{!URLFOR($Resource.Typeahead, '/typeahead.bundle-beta.js')}"><\/script>');
+		window.typeahead || document.write('<script src="{!URLFOR($Resource.Typeahead, '/typeahead.bundle.min.js')}"><\/script>');
     </script>
 
 	<apex:attribute name="searchBoxId" type="String" default="searchBox"
@@ -136,9 +136,9 @@
 		boxData['{!searchBoxId}'] = { 
 			setSelectedValue : 
 				function( ctrl, id, value ) {
-					console.log( id + ' => ' + value );
+					//console.log( id + ' => ' + value );
 
-					// put the id on the data tag
+					// put the id on the input tag
 					j$(ctrl).attr('data-id', id);
 
 					// if destinations are defined, set them too
@@ -163,7 +163,6 @@
 				        function(result, event){
 				            if (event.status) {
 				            	// console.log(result);
-				            	// need to filter these !!
 				            	var dataList = [];
 				            	j$.each(result, function(i, r) {
 					            	dataList.push({
@@ -191,32 +190,36 @@
 				minLength: {!minSearchLength},
 				hint: true,
 				autoselect: true,
-				sections: {
-				  	name: '{!searchBoxId}Typeahead',
-				  	source: boxData['{!searchBoxId}'].boxQuery,	// calls our remoting function
-					highlight: true //,
-					/*templates: {
-				    	suggestion: function(c) { 
-				    		return '<p><strong>' + c.name + '</strong><br />' + c.addr + '</p>'; 
-				    	}
-				    	//, empty: '<p>No results found.</p>'
-				    }
-				    */
-				}
+				highlight: true
+			},
+			{
+			  	source: boxData['{!searchBoxId}'].boxQuery,	// calls our remoting function
+			  	name: '{!searchBoxId}Typeahead',
+			  	//displayKey: ,
+				/*templates: {
+			    	suggestion: function(c) { 
+			    		return '<p><strong>' + c.name + '</strong><br />' + c.addr + '</p>'; 
+			    	}
+			    	//, empty: '<p>No results found.</p>'
+			    	//, header: '' 
+			    	//, footer: ''
+			    }
+			    */
 			}).on('typeahead:selected', function (object, datum) {
 				boxData['{!searchBoxId}'].setSelectedValue( this, datum.id, datum.value );
 			    // console.log('typeahead:selected => ' + datum.id);
 			}).on('typeahead:autocompleted', function (object, datum) {
 				boxData['{!searchBoxId}'].setSelectedValue( this, datum.id, datum.value );
 			    // console.log('typeahead:autocompleted => ' + datum.id);
-			}).on('typeahead:cursorchanged', function (object, datum) {
-				boxData['{!searchBoxId}'].setSelectedValue( this, datum.id, datum.value );
+			//}).on('typeahead:cursorchanged', function (object, datum) {
+				//boxData['{!searchBoxId}'].setSelectedValue( this, datum.id, datum.value );
 			    // console.log('typeahead:cursorchanged => ' + datum.id);
 			//}).on('typeahead:closed', function (object, datum) {
 			//     console.log('typeahead:closed');
 			// });
 			}).keyup( function() {
-				if (!j$(this).val().length) {
+				// if they clear the box completely, we want to clear the selection
+				if (!j$(this).typeahead('val').length) {
 					boxData['{!searchBoxId}'].setSelectedValue( this, null, null );
 			    }
 			});
