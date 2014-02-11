@@ -6,7 +6,7 @@ A flexible typeahead component for use on Visualforce pages.  Uses the typeahead
 
 ###Installation
 Click here to install: 
-https://githubsfdeploy.herokuapp.com/app/SalesforceFoundation/visualforce-typeahead
+https://githubsfdeploy.herokuapp.com/?owner=SalesforceFoundation&repo=visualforce-typeahead
 
 
 ###Usage
@@ -16,9 +16,9 @@ If you include the component on a Visualforce page in its simplest form, it will
 
 There are many attributes you can pass to the component to change its behavior.  For example, the following searches Accounts and puts the ID it finds into a hidden field you can access in your controller.
 
-		<h3>Account Name:</h3>
-		<c:Typeahead object="Account" destinationForSelectedId="accountId" />	
-		<apex:hidden id="accountId" value="{!accountId}" />		
+	<h3>Account Name:</h3>
+	<c:Typeahead object="Account" destinationForSelectedId="accountId" />	
+	<apex:hidden id="accountId" value="{!accountId}" />		
 
 For simple examples, see the TypeaheadTest page. To view all available attributes, see the Typeahead component.
 
@@ -29,8 +29,8 @@ Note: The component depends on jQuery, which it loads automatically if your page
 ###Possible Improvements
 * pass in a function to call when something is selected (so they don't have to click a button)
 * specify where to put errors (and then use an alert if not specified)
-* list of extra fields to query
-* function to render suggestion
 * specify when to show secondary field (all the time or only when needed to make name unique)
+* attribute to pass in HTML suggestion template, or function to render the template
+* list of extra fields to query (especially if needed for suggestion template)
 
-Contributors are welcome.
+Contributors to the project are welcome.
