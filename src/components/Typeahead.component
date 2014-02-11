@@ -53,9 +53,9 @@
 					description="Maximum number of records to return to the list. " />
 
 	<apex:attribute name="destinationForSelectedId" type="String" 
-					description="Id of a field, such as an apex:hidden, that should get Salesforce Id of the selected item." />
+					description="Id of a field, such as an apex:inputHidden, that should get Salesforce Id of the selected item." />
 	<apex:attribute name="destinationForSelectedValue" type="String" 
-					description="Id of a field, such as an apex:hidden, that should get the displayed name/value of the selected item." />
+					description="Id of a field, such as an apex:inputHidden, that should get the displayed name/value of the selected item." />
 
 	<apex:attribute name="stealFocus" type="Boolean" default="true" 
 					description="Whether to automatically move the focus to the search box when the component is displayed." />
@@ -142,8 +142,8 @@
 					j$(ctrl).attr('data-id', id);
 
 					// if destinations are defined, set them too
-					j$('#{!destinationForSelectedId}').val( id );
-					j$('#{!destinationForSelectedValue}').val( value );
+					j$('[id$={!destinationForSelectedId}]').val( id );
+					j$('[id$={!destinationForSelectedValue}]').val( value );
 				},
 
 			fieldList: 
