@@ -179,7 +179,7 @@
 				                typeaheadCallback( [] );
 				            }
 				        }, 
-				        {escape: true}
+				        {escape: false}
 				    );
 				}
 			};
