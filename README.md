@@ -5,7 +5,7 @@ A flexible typeahead component for use on Visualforce pages.  Uses the typeahead
 
 Use this component to provide a lookup field for related objects, such as the account for a contact.
 
-![Typeahead Lookup Example Page](salesforcefoundation.github.com/repository/img/typeahead-readme-image.png)
+![Typeahead Lookup Example Page](typeahead-readme-image.png)
 
 ###Installation
 Click here to install: 
