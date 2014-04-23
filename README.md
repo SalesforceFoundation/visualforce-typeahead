@@ -12,6 +12,10 @@ Click here to install:
 https://githubsfdeploy.herokuapp.com/?owner=SalesforceFoundation&repo=visualforce-typeahead
 
 
+###Video Intro
+A 4-minute video showing the basic functionality:  http://youtu.be/Cc87v39Z9tY
+
+
 ###Usage
 If you include the component on a Visualforce page in its simplest form, it will search Contacts:
 	
