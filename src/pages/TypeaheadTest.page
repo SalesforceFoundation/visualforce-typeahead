@@ -25,8 +25,9 @@
 		<button onclick="alert( 'You selected ' + document.getElementById('searchBox').getAttribute('data-id') );">Submit</button>
 
 		<h3>Account Name:</h3>
-		<c:Typeahead searchBoxId="acctSearchBox" object="Account" primaryField="Name" secondaryField="BillingCity" searchScope="NAME"
-				placeholder="Type something..." minSearchLength="3" destinationForSelectedId="accountId" stealFocus="false" />	
+		<c:Typeahead searchBoxId="acctSearchBox" object="Account" primaryField="Name" secondaryField="BillingCity" 
+				searchScope="NAME" placeholder="Type something..." minSearchLength="3" 
+				destinationForSelectedId="accountId" stealFocus="false" />	
 
 		<input type="hidden" name="accountId" id="accountId" />		
 

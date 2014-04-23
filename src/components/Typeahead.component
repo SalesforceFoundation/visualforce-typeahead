@@ -7,15 +7,6 @@
 		<h3>Account Name:</h3>
 		<c:Typeahead searchBoxId="acctSearchBox" object="Account" destinationForSelectedId="accountId" />	
 		<input type="hidden" name="accountId" id="accountId" />		
-
-
-	possible improvements:
-	 - pass in a function to call when something is selected (so they don't have to click a button)
-	 - specify where to put errors (and then use an alert if not specified)
-	 - list of extra fields to query
-	 - function to render suggestion
-	 - specify when to show secondary field (all the time or only when needed to make name unique)
-
 	-->
 
 	<script type="text/javascript">
