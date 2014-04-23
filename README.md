@@ -3,6 +3,9 @@ visualforce-typeahead
 
 A flexible typeahead component for use on Visualforce pages.  Uses the typeahead.js library from Twitter.
 
+Use this component to provide a lookup field for related objects, such as the account for a contact.
+
+![Typeahead Lookup Example Page](salesforcefoundation.github.com/repository/img/typeahead-readme-image.png)
 
 ###Installation
 Click here to install: 
@@ -32,5 +35,6 @@ Note: The component depends on jQuery, which it loads automatically if your page
 * specify when to show secondary field (all the time or only when needed to make name unique)
 * attribute to pass in HTML suggestion template, or function to render the template
 * list of extra fields to query (especially if needed for suggestion template)
+* option to use SOQL instead of SOSL - less flexible but faster and possibly more reliable
 
 Contributors to the project are welcome.
