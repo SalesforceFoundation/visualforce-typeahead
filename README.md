@@ -68,5 +68,5 @@ stealFocus | Boolean | Whether to automatically move the focus to the search box
 
 
 ###License
-This project is released for your page-designing pleasure by the [Salesforce Foundation](http://salesforcefoundation.org)Business Applications Team under the open-source [BSD license](http://www.opensource.org/licenses/BSD-3-Clause). Contributors to the project are welcome.
+This project is released for your page-designing pleasure by the [Salesforce Foundation](http://salesforcefoundation.org) Business Applications Team under the open-source [BSD license](http://www.opensource.org/licenses/BSD-3-Clause). Contributors to the project are welcome.
 
