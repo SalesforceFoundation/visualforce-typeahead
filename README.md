@@ -1,7 +1,7 @@
 visualforce-typeahead
 =====================
 
-A flexible typeahead component for use on Visualforce pages.  Uses the typeahead.js library from Twitter.
+A flexible typeahead component for use on Visualforce pages.  Uses the [typeahead.js](http://twitter.github.io/typeahead.js/) library from Twitter.
 
 Use this component to provide a lookup field for related objects, such as the account for a contact.
 
