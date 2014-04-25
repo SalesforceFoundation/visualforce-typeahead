@@ -21,16 +21,41 @@ If you include the component on a Visualforce page in its simplest form, it will
 	
 	<c:Typeahead />
 
+For other objects, pass in the object parameter:
+
+	<c:Typeahead object="Account" /> 
+
+For an example of the component in use, see the TypeaheadTest page. 
+
+
+###Component Attributes
+
 There are many attributes you can pass to the component to change its behavior.  For example, the following searches Accounts and puts the ID it finds into a hidden field you can access in your controller.
 
 	<h3>Account Name:</h3>
 	<c:Typeahead object="Account" destinationForSelectedId="accountId" />	
 	<apex:hidden id="accountId" value="{!accountId}" />		
 
-For simple examples, see the TypeaheadTest page. To view all available attributes, see the Typeahead component.
+This table lists the attributes:
 
-
-Note: The component depends on jQuery, which it loads automatically if your page doesn't already include it. However, if your page does load jQuery, it must be version 1.9+ to be compatible.
+Attribute  | Type | Description | Default
+---------- | ---- | ----------- | -------
+searchBoxId | String | Id attribute for the search input box. | searchBox
+styleClass | String | CSS class attribute to apply on the search input box.
+style | String | CSS style attribute to apply on the search input box.
+placeholder | String | Text to display as a placeholder in the search input box. | Search
+object | String | The type of record we are searching. | Contact
+objectIdField | String | The field that provides the object Id. | Id
+primaryField | String | The field that provides the primary display value. | Name
+secondaryField | String | A field to differentiate the display value. Appears in parens.
+minSearchLength | Integer | How many characters you must type before searching.  Must be 2 or more. | 2
+searchScope | String | Indicates which types of fields on the object to search. One of ALL, NAME, EMAIL, PHONE, SIDEBAR. | ALL
+filterClause | String | WHERE clause to filter records. Do not include WHERE.
+orderBy | String | Name of field to sort records by. | Name
+recordLimit | String | Maximum number of records to return to the list. | 2000
+destinationForSelectedId | String | Id of a field, such as an apex:inputHidden, that should get Salesforce Id of the selected item.
+destinationForSelectedValue | String | Id of a field, such as an apex:inputHidden, that should get the displayed name/value of the selected item.
+stealFocus | Boolean | Whether to automatically move the focus to the search box when the component is displayed. | true
 
 
 ###Possible Improvements
