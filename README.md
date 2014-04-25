@@ -66,4 +66,8 @@ stealFocus | Boolean | Whether to automatically move the focus to the search box
 * list of extra fields to query (especially if needed for suggestion template)
 * option to use SOQL instead of SOSL - less flexible but faster and possibly more reliable
 
-Contributors to the project are welcome.
+
+###License
+This project is released by the Salesforce Foundation for your page-designing pleasure under the open-source BSD license. Contributors to the project are welcome.
+
+
