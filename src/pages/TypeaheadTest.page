@@ -1,38 +1,39 @@
 <!-- Form that demonstrates use of the Force.com Typeahead component -->
 <apex:page showHeader="true" sidebar="true" title="Typeahead Test Page">
 
-	<style>
-		.sample-form { 
-			margin: 20px;
-			width: 400px;
-			font-size: 16px; 
-		}
-		.sample-form h3 { 
-			margin:8px 0; 
-			display:block; 
-		}
-		.sample-form button { 
-			margin: 18px 0; 
-			padding: 5px 10px;
-		}
-	</style>
-	
-	<div class="sample-form">
+    <style>
+        .sample-form { 
+            margin: 20px;
+            width: 400px;
+            font-size: 16px; 
+        }
+        .sample-form h3 { 
+            margin:8px 0; 
+            display:block; 
+        }
+        .sample-form button { 
+            margin: 18px 0; 
+            padding: 5px 10px;
+        }
+    </style>
+    
+    <div class="sample-form">
 
-		<h3>Contact Name:</h3>
-		<c:Typeahead />	
+        <h3>Contact Name:</h3>
+        <c:Typeahead /> 
 
-		<button onclick="alert( 'You selected ' + document.getElementById('searchBox').getAttribute('data-id') );">Submit</button>
+        <button onclick="alert( 'You selected ' + document.getElementById('searchBox').getAttribute('data-id') );">Submit</button>
 
-		<h3>Account Name:</h3>
-		<c:Typeahead searchBoxId="acctSearchBox" object="Account" primaryField="Name" secondaryField="BillingCity" 
-				searchScope="NAME" placeholder="Type something..." minSearchLength="3" 
-				destinationForSelectedId="accountId" stealFocus="false" />	
+        <h3>Account Name:</h3>
+        <c:Typeahead searchBoxId="acctSearchBox" object="Account" primaryField="Name" secondaryField="BillingCity" 
+                searchScope="NAME" placeholder="Type something..." minSearchLength="3" 
+                destinationForSelectedId="accountId" destinationForSelectedValue="accountName" stealFocus="false" />  
 
-		<input type="hidden" name="accountId" id="accountId" />		
+        <input type="hidden" name="accountId" id="accountId" />     
+        <input type="hidden" name="accountName" id="accountName" />     
 
-		<button onclick="alert( 'The hidden Id field contains ' + document.getElementById('accountId').value );">Submit</button>
+        <button onclick="alert( 'The hidden Id field contains ' + document.getElementById('accountId').value + '\nThe hidden Name field contains ' + document.getElementById('accountName').value );">Submit</button>
 
-	</div>
+    </div>
 
 </apex:page>
