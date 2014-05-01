@@ -209,8 +209,8 @@
 			//     console.log('typeahead:closed');
 			// });
 			}).keyup( function(ev) {
-				// if they clear the box completely, we want to clear the selection
-				if ( ev.which == 8 ) {
+				// if they press backspace or escape, we want to clear the selection
+				if ( ev.which == 8 || ev.which == 27 ) {
 					boxData['{!searchBoxId}'].setSelectedValue( this, null, null );
 			    }
 			});
