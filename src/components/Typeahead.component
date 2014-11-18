@@ -134,7 +134,7 @@
 
 					// if destinations are defined, set them too
 					j$('[id$={!destinationForSelectedId}]'.replace(/:/g,'\\:')).val( id );
-					j$('[id$={!destinationForSelectedValue}]'.replace(/:/g,'\\:'))).val( value );
+					j$('[id$={!destinationForSelectedValue}]'.replace(/:/g,'\\:')).val( value );
 				},
 
 			fieldList: 
