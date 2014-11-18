@@ -133,8 +133,8 @@
 					j$(ctrl).attr('data-id', id);
 
 					// if destinations are defined, set them too
-					j$('[id$={!destinationForSelectedId}]').val( id );
-					j$('[id$={!destinationForSelectedValue}]').val( value );
+					j$('[id$={!destinationForSelectedId}]'.replace(/:/g,'\\:')).val( id );
+					j$('[id$={!destinationForSelectedValue}]'.replace(/:/g,'\\:'))).val( value );
 				},
 
 			fieldList: 
