@@ -131,10 +131,15 @@
 
 					// put the id on the input tag
 					j$(ctrl).attr('data-id', id);
+					 var selectedId = '{!destinationForSelectedId}';
+				         var selectedValue = '{!destinationForSelectedValue}';
 
 					// if destinations are defined, set them too
-					j$('[id$={!destinationForSelectedId}]').val( id );
-					j$('[id$={!destinationForSelectedValue}]').val( value );
+					   if(selectedId != '')
+					   	j$('[id$='+selectedId+']').val( id );
+
+					    if(selectedValue != '')
+					         j$('[id$='+selectedValue+']').val( value );
 				},
 
 			fieldList: 
