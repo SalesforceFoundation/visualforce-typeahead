@@ -7,16 +7,16 @@ Use this component to provide a lookup field for related objects, such as the ac
 
 ![Typeahead Lookup Example Page](typeahead-readme-image.png)
 
-###Installation
+### Installation
 Click here to install: 
 https://githubsfdeploy.herokuapp.com/?owner=SalesforceFoundation&repo=visualforce-typeahead
 
 
-###Video Intro
+### Video Intro
 A 4-minute video showing the basic functionality:  http://youtu.be/Cc87v39Z9tY
 
 
-###Usage
+### Usage
 If you include the component on a Visualforce page in its simplest form, it will search Contacts:
 	
 	<c:Typeahead />
@@ -28,7 +28,7 @@ For other objects, pass in the object parameter:
 For an example of the component in use, see the TypeaheadTest page. 
 
 
-###Component Attributes
+### Component Attributes
 
 There are many attributes you can pass to the component to change its behavior.  For example, the following searches Accounts and puts the ID it finds into a hidden field you can access in your controller.
 
@@ -58,7 +58,7 @@ destinationForSelectedValue | String | Id of a field, such as an apex:inputHidde
 stealFocus | Boolean | Whether to automatically move the focus to the search box when the component is displayed. | true
 
 
-###Possible Improvements
+### Possible Improvements
 * pass in a function to call when something is selected (so they don't have to click a button)
 * specify where to put errors (and then use an alert if not specified)
 * specify when to show secondary field (all the time or only when needed to make name unique)
@@ -67,6 +67,6 @@ stealFocus | Boolean | Whether to automatically move the focus to the search box
 * option to use SOQL instead of SOSL - less flexible but faster and possibly more reliable
 
 
-###License
+### License
 This project is released for your page-designing pleasure by the [Salesforce Foundation](http://salesforcefoundation.org) Business Applications Team under the open-source [BSD license](http://www.opensource.org/licenses/BSD-3-Clause). Contributors to the project are welcome.
 
