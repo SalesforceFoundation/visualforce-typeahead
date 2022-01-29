@@ -1,7 +1,7 @@
 @isTest
 public with sharing class TypeaheadTest {
 
-  private static testMethod void testQuery() {
+  private static testMethod testQuery() {
     list<Account> aa = new list<Account>{
       new Account(Name='Test Account'),
       new Account(Name='Another Account', BillingCity='Test City'),
